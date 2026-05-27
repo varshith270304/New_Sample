@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>My Portfolio</title>
+
+    <meta charset="UTF-8" /> <!-- UTF : Unicode Transformation Format -->
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE-Edge" />
+    <!-- <meta http-equiv="refresh" content="60" /> -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="The best webpage." /> <!-- SEO : Search Enging Optimization -->
+    <meta name="author" content="Digit Institute" />
+    <link rel="icon" type="image/x-icon" href="C:\Users\Varshith_25003\Downloads\user.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../UI_9.30/portfolio_styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition-duration: 0.7s;
+            box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175);
+        }
+
+        .card:hover {
+            .edu-icon img {
+                transform: scale(1.2);
+                transition-duration: 0.3s;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-sticky top-0 z-3 p-2"
+        aria-label="Fifth navbar example">
+        <div class="container"> <a class="navbar-brand fs-3" href="#">VARSHITH</a> <button class="navbar-toggler"
+                type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample05"
+                aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarsExample05">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-3 fs-6">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page" href="#">About Me</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Skills</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Education</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Projects</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Experience</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Achivements</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#">Contact Me</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="container py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-8 col-lg-6"> <img
+                    src="https://plus.unsplash.com/premium_photo-1723867247863-f5a80b28eca1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    class="d-block mx-lg-auto img-fluid rounded-5 shadow-lg p-3 mb-5 bg-body-tertiary rounded-5"
+                    alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h4 class="text-info fw-semibold">Hello I'm</h4>
+                <h1 class="display-1 fw-bold text-body-emphasis lh-1 my-3">Varshith.</h1>
+                <h3 class="display-6 fw-bold text-body-secondary lh-1 mb-4">Full Stack Developer</h1>
+                    <p class="lead fs-5">Passionate MERN stack developer skilled in MongoDB, Express, ReactJs, NodeJs
+                        and with strong in intrest in building responsive & interactive web applications.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start"> <button type="button"
+                            class="btn btn-info btn-lg px-4 me-md-2 text-white fw-semibold">Download Resume</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4 fw-semibold">Contact
+                            Me</button>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+    <div class="bg-body-tertiary">
+        <div class="container py-5">
+            <h1 class="text-center mb-5">About Me</h1>
+            <div class="rounded-4 shadow-lg p-5 mb-4 bg-body-tertiary rounded">
+                <p class="fs-6 mb-0 lh-lg">Passionate Junior Software Engineer specializing in the MERN stack. I enjoy
+                    bridging the gap between
+                    elegant frontend design and robust backend functionality. Constantly learning new technologies and
+                    focusing on writing clean, efficient code. Proficient in HTML, CSS, JavaScript, React, and Node.js.
+                    Open to full-time opportunities where I can apply my skills to solve real-world problems.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Skill -->
+    <div class="container py-5 ">
+        <h1 class="text-center mb-5">Technical Skills</h1>
+        <div class="row justify-content-evenly g-3 mb-4 mt-3">
+            <div class="card p-3" style="width: 10rem;">
+                <img src="./assets/html.png" class="card-img-top" alt="...">
+                <div class="card-body p-0 text-center">
+                    <h5 class="card-title mb-0 mt-3">HTML</h5>
+                </div>
+            </div>
+            <div class="card p-3" style="width: 10rem;">
+                <img src="./assets/css.png" class="card-img-top" alt="...">
+                <div class="card-body p-0 text-center">
+                    <h5 class="card-title mb-0 mt-3">CSS</h5>
+                </div>
+            </div>
+            <div class="card p-3" style="width: 10rem;">
+                <img src="./assets/bootstrap.png" class="card-img-top" alt="...">
+                <div class="card-body p-0 text-center">
+                    <h5 class="card-title mb-0 mt-3">Bootstrap</h5>
+                </div>
+            </div>
+            <div class="card p-3" style="width: 10rem;">
+                <img src="./assets/js.png" class="card-img-top" alt="...">
+                <div class="card-body p-0 text-center">
+                    <h5 class="card-title mb-0 mt-3">JavaScript</h5>
+                </div>
+            </div>
+            <div class="card p-3" style="width: 10rem;">
+                <img src="./assets/react.png" class="card-img-top" alt="...">
+                <div class="card-body p-0 text-center">
+                    <h5 class="card-title mb-0 mt-3">ReactJs</h5>
+                </div>
+            </div>
+            <div class="card p-3" style="width: 10rem;">
+                <img src="./assets/nodejs.png" class="card-img-top" alt="...">
+                <div class="card-body p-0 text-center">
+                    <h5 class="card-title mb-0 mt-3">NodeJs</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="bg-body-tertiary">
+        <div class="container py-5" id="custom-cards">
+            <h1 class="text-center mb-5">Projects</h1>
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 mb-4">
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('https://plus.unsplash.com/premium_vector-1743661464477-ebbc34f4b665?q=80&w=996&auto=format&fit=crop'); background-position: center; background-size: cover;">
+                        <div class="align-content-end h-100 px-4 py-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 display-6 lh-2 fw-bold">Digit Detect</h3>
+                            <p>A Hand written digit recognition system.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0,0.3)), url('https://images.unsplash.com/photo-1555066931-bf19f8fd1085?q=80&w=1171&auto=format&fit=crop'); background-position: center; background-size: cover;">
+                        <div class="align-content-end h-100 px-4 py-5 pb-3 text-white text-shadow-1">
+                            <h4 class="pt-5 mt-5 display-6 lh-2 fw-bold">Attendance Gaurd</h4>
+                            <p>A python based attendance alert system.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
+                        style="background-image: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1602407294553-6ac9170b3ed0?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); background-position: center; background-size: cover;">
+                        <div class="align-content-end h-100 px-4 py-5 pb-3 text-shadow-1">
+                            <h3 class="pt-5 mt-5 display-6 lh-2 fw-bold">My Portfolio</h3>
+                            <p>A personal Portfolio Website.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Education -->
+    <div class="container py-5">
+        <h1 class="text-center mb-5">Education</h1>
+        <div class="row row-cols-1 row-cols-lg-3 mb-4">
+            <div class="col">
+                <div
+                    class="card d-flex flex-row align-items-center h-100 p-3 overflow-hidden border border-info border-5 border-top-0 border-end-0 border-bottom-0 rounded-5 shadow">
+                    <div class="mx-3 edu-icon "><img src="./assets/school.png" alt="" /></div>
+                    <div class=" h-100 p-4 pb-3 text-white text-shadow-1">
+                        <h4 class="display-8 lh-2 fw-bold text-body">X class</h4>
+                        <h5 class="my-3 fw-bold text-secondary">Sree Balajee Vidyalayam</h5>
+                        <div class="d-flex align-items-baseline">
+                            <h5 class="d-block lh-2 fw-bold text-body-secondary me-3">CGPA :</h5>
+                            <h4 class="d-block text-body">10.0</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card d-flex flex-row align-items-center h-100 p-3 overflow-hidden border border-info border-5 border-top-0 border-end-0 border-bottom-0 rounded-5 shadow">
+                    <div class="mx-3 edu-icon "><img src="./assets/college.png" alt="" /></div>
+                    <div class=" h-100 p-4 pb-3 text-white text-shadow-1">
+                        <h4 class="display-8 lh-2 fw-bold text-body">Intermediate</h4>
+                        <h5 class="my-3 fw-bold text-secondary">Star Junior College</h5>
+                        <div class="d-flex align-items-baseline">
+                            <h5 class="d-block lh-2 fw-bold text-body-secondary me-3">Marks :</h5>
+                            <h4 class="d-block text-body">975</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div
+                    class="card d-flex flex-row align-items-center h-100 p-3 overflow-hidden border border-info border-5 border-top-0 border-end-0 border-bottom-0 rounded-5 shadow">
+                    <div class="mx-2 edu-icon "><img src="./assets/university.png" alt="" /></div>
+                    <div class=" h-100 p-4 pb-3 text-white text-shadow-1">
+                        <h4 class="display-8 lh-2 fw-bold text-body">B. Tech - CSE</h4>
+                        <h6 class="my-3 fw-bold text-secondary">Gudlavalleru Engineering College</h6>
+                        <div class="d-flex align-items-baseline">
+                            <h5 class="d-block lh-2 fw-bold text-body-secondary me-3">CGPA :</h5>
+                            <h4 class="d-block text-body">9.21</h4>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Experience -->
+    <div class="bg-body-tertiary">
+        <div class="container py-5">
+            <h1 class="text-center mb-4">Workshops & Experience</h1>
+            <div class="row">
+                <div class="container px-4 id=" hanging-icons">
+                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                        <div class="col d-flex align-items-start justify-content-center align-content-center">
+                            <div
+                                class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <img src="./assets/github.png">
+                            </div>
+                            <div>
+                                <h3 class="fs-2 text-body-emphasis">Git Workshop</h3>
+                                <p>I completed an intensive MERN stack workshop focused on building scalable full-stack
+                                    web applications from scratch. Through hands-on projects, I mastered the
+                                    request-response lifecycle by connecting dynamic React front-ends with robust
+                                    Node.js and Express.js RESTful APIs.</p> <a href="#"
+                                    class="btn btn-info text-white p-2 fw-semibold">
+                                    See Details
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                            <div
+                                class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <img src="./assets/github.png">
+                            </div>
+                            <div>
+                                <h3 class="fs-2 text-body-emphasis">MERN Work</h3>
+                                <p>I completed an intensive MERN stack workshop focused on building scalable full-stack
+                                    web applications from scratch. Through hands-on projects, I mastered the
+                                    request-response lifecycle by connecting dynamic React front-ends with robust
+                                    Node.js and Express.js RESTful APIs.</p> <a href="#"
+                                    class="btn btn-info text-white p-2 fw-semibold">
+                                    See Details
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-start">
+                            <div
+                                class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                                <img src="./assets/github.png">
+                                
+                            </div>
+                            <div>
+                               <h3 class="fs-2 text-body-emphasis">Full Stack Developer</h3>
+                                <p>I completed an intensive MERN stack workshop focused on building scalable full-stack
+                                    web applications from scratch. Through hands-on projects, I mastered the
+                                    request-response lifecycle by connecting dynamic React front-ends with robust
+                                    Node.js and Express.js RESTful APIs.</p> <a href="#"
+                                    class="btn btn-info text-white p-2 fw-semibold">
+                                    See Details
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Me -->
+    <div class="bg-body-tertiary">
+        <div class="container py-5 d-flex flex-column align-items-center">
+            <h1 class="text-center mb-5">Contact Me</h1>
+            <form action="#" method="post" class="d-flex flex-column align-items-center p-5 shadow rounded mb-4">
+                <div class="d-flex flex-column mb-3">
+                    <label class="fs-5 mb-2">Full Name<sup class="ms-1 text-danger">*</sup></label>
+                    <input type="text" name="fullname" value="" placeholder="Enter your Full Name" required
+                        style="width: 24rem" class="p-2 rounded" />
+                </div>
+                <div class="d-flex flex-column mb-3">
+                    <label class="fs-5 mb-2">Email<sup class="ms-1 text-danger">*</sup></label>
+                    <input type="email" name="fullname" value="" placeholder="Enter your Email Address" required
+                        style="width: 24rem" class="p-2 rounded" />
+                </div>
+                <div class="d-flex flex-column mb-3">
+                    <label class="fs-5 mb-2">Message</label>
+                    <textarea type="email" name="fullname" value="" rows="5" placeholder="Enter your Email Address"
+                        required style="width: 24rem" class="p-2 rounded"></textarea>
+                </div>
+                <button class="btn btn-info text-white fs-5 py-2 px-5 mt-3 mb-0" style="width: 15rem;">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="bg-body-tertiary pt-5 pb-3">
+        <div class="container">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
+                <div class="col-md-4 d-flex align-items-center"> </a> <span class="mb-3 mb-md-0 text-body-secondary">©
+                        2026 Varshith | All Rights Reserved</span> </div>
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                    <li class="ms-3 me-2"><a class="text-body-secondary" href="#" aria-label="Instagram"><img
+                                src="./assets/linkedin.png" /></a></li>
+                    <li class="ms-3"><a class="text-body-secondary" href="#" aria-label="Facebook"><img
+                                src="./assets/github.png" /></a></li>
+                </ul>
+            </footer>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src=""></script>
+</body>
+
+</html>
